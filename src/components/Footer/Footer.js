@@ -14,15 +14,15 @@ export default function Footer(props) {
         <Row>
           <Col xs={6} sm={{ span: 5, order: 1 }} lg={{ span: 3, order: 1 }}>
             <p className="Xsmall">
-              RAWGraphs is an open source project designed and developed by{' '}
-              <a
+              Created using RAWGraphs2.0 beta, an open source project licensed under Apache 2.0. {' '}
+              {/* <a
                 href="http://densitydesign.org/"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                DensityDesign
-              </a>
-              ,{' '}
+              > */}
+                {/* DensityDesign
+              </a> */}
+              {/* ,{' '}
               <a
                 href="https://calib.ro/"
                 target="_blank"
@@ -38,7 +38,7 @@ export default function Footer(props) {
               >
                 Inmagik
               </a>
-              .
+              . */}
               <br />© 2013-2021{' '}
               <a href="https://raw.github.com/rawgraphs/rawgraphs-app/master/LICENSE">
                 (Apache License 2.0)
@@ -56,7 +56,7 @@ export default function Footer(props) {
             lg={{ offset: 0 }}
             xl={{ span: 2, offset: 2 }}
           >
-            <p>
+            {/* <p>
               <BsFillEnvelopeFill /> hello at rawgraphs.io
             </p>
             <p>
@@ -68,7 +68,7 @@ export default function Footer(props) {
               >
                 @rawgraphs
               </a>
-            </p>
+            </p> */}
           </Col>
           <Col
             xs={6}
@@ -88,14 +88,14 @@ export default function Footer(props) {
               </a>
             </p>
             <p>
-              <BsBarChartFill />{' '}
+              {/* <BsBarChartFill />{' '}
               <a
                 href="https://old.rawgraphs.io"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 RAWGraphs v.1
-              </a>
+              </a> */}
             </p>
           </Col>
         </Row>
